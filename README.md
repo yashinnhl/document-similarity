@@ -4,7 +4,7 @@ Calculate the similarity distance between documents using pre-trained word2vec m
 
 ### Usage
 
-- Load a pre-trained word2vec model. _Note_: You can use [Google's pre-trained word2vec model](https://bit.ly/w2vgdrive), if you don't have one.
+- Load a pre-trained word2vec model. _Note_: You can use [Google's pre-trained word2vec model](https://bit.ly/w2vgdrive), if you don't have one.In order to avoid memory error, you can use slim version (https://github.com/eyaler/word2vec-slim/blob/master/GoogleNews-vectors-negative300-SLIM.bin.gz) - developed by https://github.com/eyaler.
     
      ```python
     from gensim.models.keyedvectors import KeyedVectors
